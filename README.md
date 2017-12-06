@@ -1,1 +1,2 @@
 # Tournament-seeding-randomizer
+This implementation was meant to show the participants of the tournament that there was no foul play involved with the seeding process. The program generates 999 random numbers that are visible to the participants. Then generates another visible random number, that chooses one of those random 999 numbers. Each team inputs a number from 1 to 1000, and whoever is closest to the random number gets the next available seed. 
