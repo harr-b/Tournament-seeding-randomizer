@@ -92,8 +92,8 @@ function closestTeam(seedsAdded, seeds, number){
   var differenceToBeat = 1000;
   var difference;
   
-  //Loops through entries to determine of the teams that have not been seeded yet, 
-  //which team is closest to the random number
+  //Loops through entries to determine which team is closest to the random number.
+  //Only Scans through teams that have not already been seeded.
   for(var row = 0; row < seeds+1; row++){
     var rowData = teamData[row];
     
